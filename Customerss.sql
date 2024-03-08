@@ -1,3 +1,6 @@
+drop procedure cb_customers_insert;
+drop procedure cb_customers_update;
+drop table cb_customers;
 
 CREATE TABLE cb_customers (
    id         NUMBER
